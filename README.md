@@ -1,6 +1,6 @@
-# <img src="./images/pygubu-designer-menu-bar-logo.png" style="align:left; padding:10px; width:100px" />Pygubu Designer Menu Bar
+# Pygubu Designer Menu Bar
 
-This Visual Code Studio extension allows [Pygubu Designer](https://github.com/alejandroautalan/pygubu-designer) to be easily launched from within the Visual Studio Code interface. Two extra buttons are added to the editor menu bar:
+<img align="right" src="./images/pygubu-designer-menu-bar-logo.png" alt="Pygubu Designer Menu Bar" style="width:180px; padding: 10px" />This Visual Code Studio extension allows [Pygubu Designer](https://github.com/alejandroautalan/pygubu-designer) to be easily launched from within the Visual Studio Code interface. Two extra buttons are added to the editor menu bar:
 
 - <img src="./images/new-file-light.png" style="float:left; width:30px" />&nbsp;&nbsp;Creates a new file in Pygubu Designer This launches pygubu-designer without a file argument.
 
