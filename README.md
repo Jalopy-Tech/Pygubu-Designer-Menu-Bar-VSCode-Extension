@@ -1,18 +1,16 @@
 # Pygubu Designer Menu Bar
 
-<img align="right" src="./images/pygubu-designer-menu-bar-logo.png" alt="Pygubu Designer Menu Bar" style="width:25%; padding: 10px" />This Visual Code Studio extension allows [Pygubu Designer](https://github.com/alejandroautalan/pygubu-designer) to be easily launched from within the Visual Studio Code interface. Two extra buttons are added to the editor menu bar:
+This Visual Code Studio extension allows [Pygubu Designer](https://github.com/alejandroautalan/pygubu-designer) to be easily launched from within the Visual Studio Code interface. Two extra buttons are added to the editor menu bar:
 
-- <img src="./images/new-file-light.png" style="float:left; width:4%" />&nbsp;&nbsp;Creates a new file in Pygubu Designer This launches pygubu-designer without a file argument.
+- Creates a new file in Pygubu Designer This launches pygubu-designer without a file argument.
 
-  
-
-- <img src="./images/open-file-light.png" style="float:left; width:4%" />&nbsp;&nbsp;Opens a file in Pygubu Designer. This launches pygubu-designer with the current file passed as an argument. This button will only appear if a .ui file (pygubu user interface file) is currently selected in the editor.
+- Opens a file in Pygubu Designer. This launches pygubu-designer with the current file passed as an argument. This button will only appear if a .ui file (pygubu user interface file) is currently selected in the editor.
 
 ## Features
 
 Select a .ui pygubu-designer file in the project and open it from a button in the editor menu bar.
 
-> <img src="./images/screenshot-features.jpg" style="align:left; padding:10px;" />
+> <img src="https://github.com/Jalopy-Tech/Pygubu-Designer-Menu-Bar-VSCode-Extension/blob/master/images/screenshot-features.jpg?raw=true" style="align:left; padding:10px;" />
 
 ## Requirements
 
@@ -31,6 +29,10 @@ Initial release.
 Copyright &copy; 2025 Robert J. Joynt.
 
 The <a href="https://github.com/Jalopy-Tech/Pygubu-Designer-Menu-Bar-VSCode-Extension/blob/master/LICENSE.md">Pygubu Deisigner Menu Bar VSCode Extension license</a> uses the GPLv3 Open Source License.
+
+## Github Repository
+https://github.com/Jalopy-Tech/Pygubu-Designer-Menu-Bar-VSCode-Extension
+
 
 ## Contact
 
