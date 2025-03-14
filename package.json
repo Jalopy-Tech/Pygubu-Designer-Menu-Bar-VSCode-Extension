@@ -3,16 +3,13 @@
   "displayName": "Pygubu Designer Menu Bar",
   "description": "Adds buttons to the editor menu bar to run pygubu-designer.",
   "version": "1.0.0",
-  "publisher": "Jalopy Tech",
+  "publisher": "Jalopy-Tech",
 	"author": {
 	  "name": "Robert J. Joynt"
   },
-  "license": "GPL-3.0-or-later",
-	"icon": "images/pygubu-designer-menu-bar.png",
-  "galleryBanner": {
-		"color": "#FFFFFF",
-		"theme": "light"
-	},
+	"license": "GPL-3.0-or-later",
+	"icon": "images/pygubu-designer-menu-bar-light.png",
+ 
   "bugs": {
 		"url": "https://github.com/Jalopy-Tech/Pygubu-Designer-Menu-Bar-VSCode-Extension/issues",
 		"email": "hey@gourav.io"
@@ -42,9 +39,6 @@
   "engines": {
     "vscode": "^1.98.0"
   },
-  "categories": [
-    "Other"
-  ],
   "activationEvents": [
   ],
   "main": "./extension.js",
