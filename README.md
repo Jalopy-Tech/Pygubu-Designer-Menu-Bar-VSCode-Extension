@@ -1,12 +1,12 @@
 # Pygubu Designer Menu Bar
 
-<img align="right" src="./images/pygubu-designer-menu-bar-logo.png" alt="Pygubu Designer Menu Bar" style="width:180px; padding: 10px" />This Visual Code Studio extension allows [Pygubu Designer](https://github.com/alejandroautalan/pygubu-designer) to be easily launched from within the Visual Studio Code interface. Two extra buttons are added to the editor menu bar:
+<img align="right" src="./images/pygubu-designer-menu-bar-logo.png" alt="Pygubu Designer Menu Bar" style="width:25%; padding: 10px" />This Visual Code Studio extension allows [Pygubu Designer](https://github.com/alejandroautalan/pygubu-designer) to be easily launched from within the Visual Studio Code interface. Two extra buttons are added to the editor menu bar:
 
-- <img src="./images/new-file-light.png" style="float:left; width:30px" />&nbsp;&nbsp;Creates a new file in Pygubu Designer This launches pygubu-designer without a file argument.
+- <img src="./images/new-file-light.png" style="float:left; width:4%" />&nbsp;&nbsp;Creates a new file in Pygubu Designer This launches pygubu-designer without a file argument.
 
   
 
-- <img src="./images/open-file-light.png" style="float:left; width:30px" />&nbsp;&nbsp;Opens a file in Pygubu Designer. This launches pygubu-designer with the current file passed as an argument. This button will only appear if a .ui file (pygubu user interface file) is currently selected in the editor.
+- <img src="./images/open-file-light.png" style="float:left; width:4%" />&nbsp;&nbsp;Opens a file in Pygubu Designer. This launches pygubu-designer with the current file passed as an argument. This button will only appear if a .ui file (pygubu user interface file) is currently selected in the editor.
 
 ## Features
 
