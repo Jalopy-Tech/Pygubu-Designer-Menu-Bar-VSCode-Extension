@@ -26,5 +26,17 @@ Select a .ui pygubu-designer file in the project and open it from a button in th
 
 Initial release.
 
+## License
+
+Copyright &copy; 2025 Robert J. Joynt.
+
+The <a href="https://github.com/Jalopy-Tech/Pygubu-Designer-Menu-Bar-VSCode-Extension/blob/master/LICENSE.md">Pygubu Deisigner Menu Bar VSCode Extension license</a> uses the GPLv3 Open Source License.
+
+## Contact
+
+For further inquires, please email: robertjjoynt@gmail.com .
+
+
+
 ---
 
