@@ -9,15 +9,15 @@ This Visual Code Studio extension allows [Pygubu Designer](https://github.com/al
 
 Select a `.ui` pygubu-designer file in the project and use the open button in the editor menu bar to open the `.ui` file in `pygubu-designer`. Use the new button in the editor menu bar to open `pygubu-designer` to create a new `.ui` file.
 
-> <img src="https://github.com/Jalopy-Tech/Pygubu-Designer-Menu-Bar-VSCode-Extension/blob/master/images/screenshot-features.jpg?raw=true" style="align:left; padding:10px;" />
+![Screenshot](https://raw.githubusercontent.com/Jalopy-Tech/Pygubu-Designer-Menu-Bar-VSCode-Extension/master/images/screenshot-features.jpg)
 
 ## Requirements
+
+`Pygubu` is a RAD tool for the Python `tkinter` module.
 
 [pygubu](https://github.com/alejandroautalan/pygubu) and [pygubu-designer](https://github.com/alejandroautalan/pygubu-designer) need to be installed. `pygubu-designer` needs to be in your `PATH`.
 
 Run `pygubu-designer` from a terminal to test that the application is working.
-
-`Pygubu` is a [RAD tool](https://en.wikipedia.org/wiki/Rapid_application_development) to enable *quick* and *easy development of user interfaces* for the Python's `tkinter` module.
 
 ## Release Notes
 
@@ -29,15 +29,11 @@ Initial release.
 
 Copyright &copy; 2025 Robert J. Joynt.
 
-The <a href="https://github.com/Jalopy-Tech/Pygubu-Designer-Menu-Bar-VSCode-Extension/blob/master/LICENSE.md">Pygubu Deisigner Menu Bar VSCode Extension license</a> uses the GPLv3 Open Source License.
-
-## Github Repository
-https://github.com/Jalopy-Tech/Pygubu-Designer-Menu-Bar-VSCode-Extension
-
+The [Pygubu Designer Menu Bar VSCode Extension license](https://github.com/Jalopy-Tech/Pygubu-Designer-Menu-Bar-VSCode-Extension/blob/master/LICENSE.md) uses the GPLv3 Open Source License.
 
 ## Contact
 
-For further inquires, please email: robertjjoynt@gmail.com .
+Please visit the [GitHub Repository](https://github.com/Jalopy-Tech/Pygubu-Designer-Menu-Bar-VSCode-Extension) for issues and inquires.
 
 
 

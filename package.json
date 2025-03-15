@@ -8,7 +8,7 @@
 	  "name": "Robert J. Joynt"
   },
 	"license": "GPL-3.0-or-later",
-	"icon": "images/pygubu-designer-menu-bar-light.png",
+	"icon": "icons/pygubu-designer-menu-bar.png",
  
   "bugs": {
 		"url": "https://github.com/Jalopy-Tech/Pygubu-Designer-Menu-Bar-VSCode-Extension/issues",
@@ -35,7 +35,8 @@
 		"bar",
 		"pygubu",
 		"designer",
-		"button"
+		"button",
+		"buttons"
 	],
   "engines": {
     "vscode": "^1.98.0"
@@ -80,8 +81,8 @@
         "command": "pygubu-designer-menu-bar.PygubuDesignerNewFile",
         "title": "Create a new file in Pygubu Designer",
         "icon": {
-					"light": "images/new-file-light.png",
-					"dark": "images/new-file-dark.png"
+					"light": "icons/new-file-light.png",
+					"dark": "icons/new-file-dark.png"
 				}
       }
   ],
