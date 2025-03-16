@@ -18,13 +18,13 @@ function activate(context) {
 	// Now provide the implementation of the command with  registerCommand
 	// The commandId parameter must match the command field in package.json
 
-
 	const disposableOpenFile = vscode.commands.registerCommand('pygubu-designer-menu-bar.PygubuDesignerOpenFile', function () {
-		// The code you place here will be executed every time your command is executed
 
 		let fError = false;
 		let fileExt = undefined;
 		let file = undefined;
+
+		// Get the curent file patha and extension from the active editor.
 
 		try {
 			file = vscode.window.activeTextEditor.document.fileName;
@@ -34,15 +34,21 @@ function activate(context) {
 			fError = true;
 		}
 
+		// Set the error flag if the current file is not a .ui file
 
 		if (!fError) {
 			fError = (fileExt.toLowerCase() != 'ui')
 		}
 
+		// Display an error message if error flag is true
+
 		if (fError) {
 			vscode.window.showErrorMessage('Pygubu Designer error: to open a file, a .ui file must be selected first.');
 		}
 		else {
+
+			// Execute pygubu-designer with the file argument
+
 			const cp = require('child_process')
 			cp.exec('pygubu-designer "' + file + '"', (err, stdout, stderr) => {
 				console.log('stdout: ' + stdout);
@@ -54,14 +60,12 @@ function activate(context) {
 			
 			});
 		}
-		
-
 	});
 	context.subscriptions.push(disposableOpenFile);
 
-
 	const disposableNewFile = vscode.commands.registerCommand('pygubu-designer-menu-bar.PygubuDesignerNewFile', function () {
-		// The code you place here will be executed every time your command is executed
+
+		// Execute pygubu-designer (no arguments).
 
 		const cp = require('child_process')
 		cp.exec('pygubu-designer', (err, stdout, stderr) => {
@@ -74,7 +78,6 @@ function activate(context) {
 		});
 	});
 	context.subscriptions.push(disposableNewFile);
-
 }
 
 // This method is called when your extension is deactivated

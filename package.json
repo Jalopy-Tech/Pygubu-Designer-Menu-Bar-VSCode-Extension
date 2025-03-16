@@ -4,39 +4,43 @@
   "description": "Adds buttons to the editor menu bar to run pygubu-designer.",
   "version": "1.0.0",
   "publisher": "Jalopy-Tech",
-	"author": {
-	  "name": "Robert J. Joynt"
+  "author": {
+	"name": "Robert J. Joynt"
   },
-	"license": "GPL-3.0-or-later",
-	"icon": "icons/pygubu-designer-menu-bar.png",
- 
+  "license": "GPL-3.0-or-later",
+  "icon": "icons/pygubu-designer-menu-bar.png",
+  "galleryBanner": {
+    "color": "#eff1f3",
+    "theme": "dark"
+  },
   "bugs": {
 		"url": "https://github.com/Jalopy-Tech/Pygubu-Designer-Menu-Bar-VSCode-Extension/issues",
 		"email": "robertjjoynt@gmail.com"
 	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/Jalopy-Tech/Pygubu-Designer-Menu-Bar-VSCode-Extension.git"
-	},
-	"homepage": "https://github.com/Jalopy-Tech/Pygubu-Designer-Menu-Bar-VSCode-Extension",
-	"categories": [
-		"Programming Languages",
-		"Other",
-		"Visualization"
-	],
-	"keywords": [
-		"shortcut",
-		"toolbar",
-		"shortcuts",
-		"menubar",
-		"tool",
-		"status",
-		"editor",
-		"bar",
-		"pygubu",
-		"designer",
-		"button",
-		"buttons"
+  "repository": {
+    "type": "git",
+	"url": "https://github.com/Jalopy-Tech/Pygubu-Designer-Menu-Bar-VSCode-Extension.git"
+  },
+  "homepage": "https://github.com/Jalopy-Tech/Pygubu-Designer-Menu-Bar-VSCode-Extension",
+  "categories": [
+    "Programming Languages",
+	"Other",
+	"Visualization"
+  ],
+  "keywords": [
+    "pygubu",
+	"designer",
+	"builder",
+	"gui",
+	"button",
+	"buttons",
+	"shortcut",
+	"shortcuts",
+	"toolbar",
+	"tool",
+	"menubar",
+	"bar",
+	"editor"
 	],
   "engines": {
     "vscode": "^1.98.0"
@@ -73,8 +77,8 @@
         "command": "pygubu-designer-menu-bar.PygubuDesignerOpenFile",
         "title": "Open a file in Pygubu Designer",
         "icon": {
-					"light": "images/open-file-light.png",
-					"dark": "images/open-file-dark.png"
+					"light": "icons/open-file-light.png",
+					"dark": "icons/open-file-dark.png"
 				}
       },
       {
