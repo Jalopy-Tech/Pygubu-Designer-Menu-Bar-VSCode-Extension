@@ -21,7 +21,7 @@ Run `pygubu-designer` from a terminal to test that the application is working.
 
 ## Release Notes
 
-### 1.0.0
+### 1.0.1
 
 Initial release.
 

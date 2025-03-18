@@ -2,7 +2,7 @@
   "name": "pygubu-designer-menu-bar",
   "displayName": "Pygubu Designer Menu Bar",
   "description": "Adds buttons to the editor menu bar to run pygubu-designer.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "Jalopy-Tech",
   "author": {
 	"name": "Robert J. Joynt"
@@ -10,7 +10,7 @@
   "license": "GPL-3.0-or-later",
   "icon": "icons/pygubu-designer-menu-bar.png",
   "galleryBanner": {
-    "color": "#eff1f3",
+    "color": "#2f2f2f",
     "theme": "dark"
   },
   "bugs": {
